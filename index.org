@@ -1,4 +1,5 @@
 #+OPTIONS: toc:nil num:nil
+#+REVEAL_ROOT: ./reveal.js
 #+REVEAL_TITLE_SLIDE:
 * What is Emacs?
 #+attr_html: :width 300px
