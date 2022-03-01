@@ -78,6 +78,7 @@ def recursion():
 #+attr_html: :width 300px
   [[file:Stallman.jpg]]
 * Philosophy
+#+attr_html: :width 300px
 [[file:The_GNU_logo.png]]
 ** Free as in Freedom (GNU)
   - Run the Program
@@ -86,7 +87,7 @@ def recursion():
   - Distribute modified versions
 ** Extensibility
 + Self Documenting
-+ Plugins are the functionally the same as the program itself
++ Plugins are functionally the same as emacs itself
 * Wrap Up
 + What it can do
 + History
