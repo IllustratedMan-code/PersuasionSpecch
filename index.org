@@ -1,0 +1,43 @@
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_TITLE_SLIDE:
+* What is Emacs?
+#+attr_html: :width 300px
+[[file:emacs.png]]
+** Text Editor
++ Word
++ Google docs
++ Visual Studio Code
++ Notepad
+** Text
+#+begin_src elisp
+;; this is the emacs programming language
+(message "Hello, world!")
+#+end_src
+
+
+#+begin_src html
+<!-- this is what the web is made of -->
+<p> Here is some HTML! </p>
+#+end_src
+
+
+#+begin_src md
+#Markdown!
+#+end_src
+** What We Will Learn
++ What it can do
++ History
++ Philosophy
+* What it can do
+
+
+* History
++ Originally created in 1976.
+#+attr_html: :width 500px
+  [[file:terminal.jpg]]
+** GNU EMACS
++ First released in 1985 by Richard Stallman
++ Free and open source
++ Lisp
+#+attr_html: :width 300px
+  [[file:Stallman.jpg]]
