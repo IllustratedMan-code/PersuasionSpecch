@@ -1,6 +1,10 @@
 #+OPTIONS: toc:nil num:nil
 #+REVEAL_ROOT: ./reveal.js
 #+REVEAL_TITLE_SLIDE:
+#+REVEAL_THEME: serif
+
+# #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+# #+OPTIONS:   H:5 num:nil toc:2 p:t
 * What is Emacs?
 #+attr_html: :width 300px
 [[file:emacs.png]]
@@ -30,6 +34,38 @@
 + History
 + Philosophy
 * What it can do
+** Edit Code
+#+begin_src python
+while True:
+    print("It's an infinite loop!")
+
+def recursion():
+    print("Is this recursion?")
+    return recursion()
+#+end_src
+** Create Documents
+#+attr_html: :width 700px
+[[file:org-mode.png]]
+*** This Presentation!
+*** PDF
+[[file:emacs-pdf.png]]
+*** Website
+[[file:website.html][Website Link]]
+** Games
++ Tetris
++ Snake
+[[file:snake.png]]
+
+** Psychologist
+#+Attr_Reveal: :frag (roll-in)
++ Why do we exist?
++ =What do you think?=
++ Love?
++ =Can you elaborate on that?=
++ Human relationships.
++ =Why do you say human relationships?=
++ It gives live meaning.
++ =Is it because of your plans that you say it gives live meaning?=
 
 
 * History
@@ -39,6 +75,20 @@
 ** GNU EMACS
 + First released in 1985 by Richard Stallman
 + Free and open source
-+ Lisp
 #+attr_html: :width 300px
   [[file:Stallman.jpg]]
+* Philosophy
+[[file:The_GNU_logo.png]]
+** Free as in Freedom (GNU)
+  - Run the Program
+  - Study and change the program
+  - Redistribute exact copies
+  - Distribute modified versions
+** Extensibility
++ Self Documenting
++ Plugins are the functionally the same as the program itself
+* Wrap Up
++ What it can do
++ History
++ Philosophy
+** Think about it!
