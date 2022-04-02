@@ -3,93 +3,36 @@
 #+REVEAL_TITLE_SLIDE:
 #+REVEAL_THEME: serif
 
-# #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-# #+OPTIONS:   H:5 num:nil toc:2 p:t
-* What is Emacs?
-#+attr_html: :width 300px
-[[file:emacs.png]]
-** Text Editor
-+ Word
-+ Google docs
-+ Visual Studio Code
-+ Notepad
-** Text
-#+begin_src elisp
-;; this is the emacs programming language
-(message "Hello, world!")
-#+end_src
-
-
-#+begin_src html
-<!-- this is what the web is made of -->
-<p> Here is some HTML! </p>
-#+end_src
-
-
-#+begin_src md
-#Markdown!
-#+end_src
-** What We Will Learn
-+ What it can do
-+ History
-+ Philosophy
-* What it can do
-** Edit Code
-#+begin_src python
-while True:
-    print("It's an infinite loop!")
-
-def recursion():
-    print("Is this recursion?")
-    return recursion()
-#+end_src
-** Create Documents
-#+attr_html: :width 700px
-[[file:org-mode.png]]
-*** This Presentation!
-*** PDF
-[[file:emacs-pdf.png]]
-*** Website
-[[file:website.html][Website Link]]
-** Games
-+ Tetris
-+ Snake
-[[file:snake.png]]
-
-** Psychologist
-#+Attr_Reveal: :frag (roll-in)
-+ Why do we exist?
-+ =What do you think?=
-+ Love?
-+ =Can you elaborate on that?=
-+ Human relationships.
-+ =Why do you say human relationships?=
-+ It gives life meaning.
-+ =Is it because of your plans that you say it gives life meaning?=
-
-
-* History
-+ Originally created in 1976.
-#+attr_html: :width 500px
-  [[file:terminal.jpg]]
-** GNU EMACS
-+ First released in 1985 by Richard Stallman
-+ Free and open source
-#+attr_html: :width 300px
-  [[file:Stallman.jpg]]
-* Philosophy
-#+attr_html: :width 300px
-[[file:The_GNU_logo.png]]
-** Free as in Freedom (GNU)
-  - Run the Program
-  - Study and change the program
-  - Redistribute exact copies
-  - Distribute modified versions
-** Extensibility
-+ Self Documenting
-+ Plugins are functionally the same as emacs itself
-* Wrap Up
-+ What it can do
-+ History
-+ Philosophy
-** Think about it!
+* What are GMOs?
++ Genetically modified organisms (GMOs)
++ Used in agriculture
++ In your grocery store
+ [[file:grocery.jpg]]
+* anti-GMO groups
+| [[file:OTA.png]] | [[file:IRT.png]] |
+** OTA
++ Funded by organic industry
++ Actively tries to bolster the organic industry
++ Petitions the government to increase regulation on GMOs
+* Good GMOs
++ Some GMOs are better than the original
+** Golden Rice
++ Gold Color comes from beta-carotene
++ Acts as a vitamin A supplement
+[[file:Golden_Rice.jpg]]
+** Potatoes
++ Unable to be bruised
++ Keep longer and travel better
+[[file:potatoes.jpg]]
+* Science of GMOs
+** IRT study
++ Study that stated rat health was negatively affected
++ Repeatably falsified by several independent universities and organizations
+  [[file:rat.jpg]]
+** Further studies
++ GMO corn was found to have no negative effects even after several generations of rats
+  [[file:corn.jpg]]
+* Summary
++ GMOs are constantly attacked by interest groups
++ Some GMOs are better than the original crop
++ There is no scientific evidence against GMOs
